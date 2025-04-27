@@ -15,8 +15,9 @@
     <script>
         let docEditor;
 
-        async loadDocument(){
+        async function loadDocument() {
             const id = document.getElementById("docId").innerHTML;
+            console.log(id);
             const response = await fetch("/api/doc/" + id);
             if (response.status == 200) {
                 const doc = await response.json();
