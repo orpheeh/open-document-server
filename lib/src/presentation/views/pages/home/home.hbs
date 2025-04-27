@@ -8,25 +8,36 @@
 </head>
 
 <body>
+    <div id="docId">{{doc.id}}</div>
     <div id="placeholder"></div>
     <script type="text/javascript" src="https://open.onlyoffice.norlib.xyz/web-apps/apps/api/documents/api.js"></script>
 
     <script>
-        const config = {
-            document: {
-                fileType: "docx",
-                key: "{{doc.id}}",
-                title: "{{doc.title}}",
-                url: "{{doc.url}}",
-            },
-            documentType: "word",
-            token: "{{token}}"
-            /*editorConfig: {
-                callbackUrl: "https://example.com/url-to-callback.ashx",
-            },*/
-        };
+        let docEditor;
 
-        const docEditor = new DocsAPI.DocEditor("placeholder", config);
+        async loadDocument(){
+            const id = document.getElementById("docId").innerHTML;
+            const response = await fetch("/api/doc/" + id);
+            if (response.status == 200) {
+                const doc = await response.json();
+                const config = {
+                    document: {
+                        fileType: "docx",
+                        key: doc.id,
+                        title: doc.title,
+                        url: doc.url,
+                    },
+                    documentType: "word",
+                    token: "{{token}}"
+                    /*editorConfig: {
+                        callbackUrl: "https://example.com/url-to-callback.ashx",
+                    },*/
+                };
+
+                docEditor = new DocsAPI.DocEditor("placeholder", config);
+            }
+        }
+
 
     </script>
 
