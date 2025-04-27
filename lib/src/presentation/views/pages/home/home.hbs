@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Document Server</title>
 </head>
+
 <body>
-    <html>Welcome to Open Document server for Onlyoffice Docs API !</html>
+    <div id="placeholder"></div>
+    <script type="text/javascript" src="https://open.onlyoffice.norlib.xyz/web-apps/apps/api/documents/api.js"></script>
+
+    <script>
+        const config = {
+            document: {
+                fileType: "docx",
+                key: "Khirz6zTPdfd7",
+                title: {{doc.title}},
+                url: {{doc.url}},
+            },
+            documentType: "word",
+            editorConfig: {
+                callbackUrl: "https://example.com/url-to-callback.ashx",
+            },
+        };
+
+        const docEditor = new DocsAPI.DocEditor("placeholder", config);
+
+    </script>
+
 </body>
+
 </html>
