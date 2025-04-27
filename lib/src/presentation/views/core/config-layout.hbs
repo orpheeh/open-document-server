@@ -1,0 +1,27 @@
+{{#> layout }}
+{{> header }}
+
+<link rel="stylesheet" href="/static/styles/config/config.css">
+
+
+<div class="page-container">
+
+    <h1 class="title">Configuration</h1>
+
+    <div class="tabs">
+        <a href="/home/config" class="tab  {{#if is_accueil}}current-tab{{/if}}">Accueil</a>
+        <a href="/home/config/entite" class="tab {{#if is_entite}}current-tab{{/if}}" >Entités</a>
+        <a href="/home/config/structure" class="tab {{#if is_structure}}current-tab{{/if}}">Structure</a>
+        <a href="/home/config/point-presence" class="tab {{#if is_pp}}current-tab{{/if}}">Point de présence</a>
+    </div>
+
+</div>
+
+<main>
+    <div class="main-content">
+        {{> @partial-block }}
+    </div>
+</main>
+
+{{> footer}}
+{{/layout}}

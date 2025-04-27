@@ -1,0 +1,229 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.programme-container {
+    background: linear-gradient(#0000000e, #0000000c),
+        url(https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    width: 100%;
+}
+
+.programme-container * {
+    width: 1100px;
+    max-width: 100%;
+    color: white;
+}
+
+.programme-container span {
+    text-transform: uppercase;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 2rem;
+    background: white;
+}
+
+h2.subtitle {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    width: 1100px;
+    color: #666666;
+}
+
+h1.title {
+    color: #666666;
+    width: 1100px;
+}
+
+main .main-content {
+    width: 1100px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    border: 1px solid #e6e6e6;
+    padding: 1rem;
+    border-radius: 4px;
+    min-width: 400px;
+    max-width: 100%;
+    background: white;
+    height: fit-content;
+    margin-left: 2rem;
+}
+
+.card-header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 4px solid #ececec;
+    margin-bottom: 1rem;
+}
+
+.card-header h2 {
+    color: #0a3164;
+    font-size: 1.2em;
+}
+
+.card-header .tag {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    color: white;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.card-body a {
+    color: #1653a3;
+    transition: 0.4s;
+    text-align: center;
+}
+
+.card-body a:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.card-item {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+    color: #666666;
+}
+
+.row-group {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.desc-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.galery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.img-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.img-container img {
+    width: 150%;
+    transition: 0.4s;
+}
+
+.img-container:hover {
+    cursor: pointer;
+}
+
+.img-container:hover img {
+    width: 100%;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 1px 0.5px 5px #ccc;
+    flex: 1;
+}
+
+.item i {
+    color: #0a3164;
+    font-size: 2.0em;
+}
+
+.item-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-data a {
+    color: #1653a3;
+    text-align: center;
+}
+
+.item-data p {
+    color: #1653a3;
+    text-align: center;
+}
+
+.desc-container p {
+    font-weight: 200;
+    color: #666666;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.desc-container h2 {
+    margin-top: 2rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
