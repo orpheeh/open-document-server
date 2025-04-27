@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Document Server</title>
+    <title>{{title}}</title>
 </head>
 
 <body>
@@ -15,14 +15,14 @@
         const config = {
             document: {
                 fileType: "docx",
-                key: "Khirz6zTPdfd7",
+                key: {{doc.id}},
                 title: {{doc.title}},
                 url: {{doc.url}},
             },
             documentType: "word",
-            editorConfig: {
+            /*editorConfig: {
                 callbackUrl: "https://example.com/url-to-callback.ashx",
-            },
+            },*/
         };
 
         const docEditor = new DocsAPI.DocEditor("placeholder", config);
