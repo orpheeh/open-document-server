@@ -15,10 +15,6 @@
     <script>
         let docEditor;
 
-        window.addEventListener('load', () => {
-            loadDocument();
-        })
-
         async loadDocument(){
             const id = document.getElementById("docId").innerHTML;
             const response = await fetch("/api/doc/" + id);
@@ -42,6 +38,11 @@
             }
         }
 
+
+
+        window.addEventListener('load', () => {
+            loadDocument();
+        })
 
     </script>
 
