@@ -24,6 +24,7 @@ ENV PG_DB localisationrag
 ENV PORT 3000
 ENV URL http://localhost:3000
 ENV STORAGE_URL http://localhost:3000/files
+ENV ONLYOFFICE_URL http://54.37.40.17:5300
 
 # Configuration des emails
 ENV MAIL_HOST sandbox.smtp.mailtrap.io
