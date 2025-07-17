@@ -1,0 +1,553 @@
+{
+    "profile": {
+        "id": "5c7927af-3aa4-437c-8f0f-509159f22b05",
+        "nomComplet": "Administrator Administrator",
+        "user": {
+            "id": 1,
+            "login": "admin@localhost",
+            "firstName": "Administrator",
+            "lastName": "Administrator",
+            "email": "admin@localhost",
+            "activated": true,
+            "twoFactorEnabled": false,
+            "createdBy": "system",
+            "createdDate": null,
+            "lastModifiedBy": "admin@localhost",
+            "lastModifiedDate": "2025-05-21T16:31:52.405818Z",
+            "lastActivity": null,
+            "authorities": [
+                {
+                    "name": "ROLE_AGENT_DCI",
+                    "permissionsAssociated": [
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "e5403991-9d9c-4d67-9dc2-72f6b5a075ab",
+                            "nom": "dir:edit",
+                            "description": "Peut éditer des dossiers de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "793b8a22-56ef-44bc-beb5-14c7bcf8cf94",
+                            "nom": "dir:view",
+                            "description": "Peut consulter des dossiers de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "a5f931df-8d06-4109-8882-ae7f4daed761",
+                            "nom": "doc:edit",
+                            "description": "Peut éditer des documents de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "3394b6f4-dbe0-4ef0-8527-1bb61b386bde",
+                            "nom": "dir:create",
+                            "description": "Peut créer des dossiers de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "7b428111-5a2b-42d9-88e3-4849986eb4e8",
+                            "nom": "dir:rename",
+                            "description": "Peut renommer des dossiers de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "a77b3e21-eaa8-476f-8e03-299bcecfb3df",
+                            "nom": "dir:move",
+                            "description": "Peut déplacer des dossiers de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "c530b3c5-7631-4f56-8d53-761f712df66b",
+                            "nom": "timeline:complete:doc",
+                            "description": "Peut compléter un document attendu pour un département ministériel"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "6ac0190e-65b5-4245-ba57-613651fa880f",
+                            "nom": "doc:view",
+                            "description": "Peut consulter des documents de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "c96b8462-63cc-4af2-a9d9-959d210ab9bf",
+                            "nom": "doc:create",
+                            "description": "Peut créer des documents de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "0310b0fb-5509-4d36-94e9-9f7d19264cea",
+                            "nom": "doc:move",
+                            "description": "Peut déplacer des documents de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "a743eb9c-e937-44f3-8408-935b895cdfba",
+                            "nom": "timeline:view",
+                            "description": "Peut consulter le suivi d'un conseil"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "fb08ec06-4659-4e07-b34d-38b1f1136e4a",
+                            "nom": "timeline:add:doc",
+                            "description": "Peut ajouter un document attendu pour le suivi d'un conseil"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "171dcbae-8f99-4a72-9a79-e1922054d03a",
+                            "nom": "doc:rename",
+                            "description": "Peut renommer des documents de son espace collaboratif rattaché à son entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "1123b3bc-7a82-4e44-8362-c293570a4d69",
+                            "nom": "aff:create:ministry",
+                            "description": "Peut créer une nouvelle affaire pour un ministère"
+                        }
+                    ],
+                    "authorities": [
+                        {
+                            "authority": "doc:create"
+                        },
+                        {
+                            "authority": "timeline:view"
+                        },
+                        {
+                            "authority": "timeline:add:doc"
+                        },
+                        {
+                            "authority": "aff:create:ministry"
+                        },
+                        {
+                            "authority": "ROLE_AGENT_DCI"
+                        },
+                        {
+                            "authority": "doc:rename"
+                        },
+                        {
+                            "authority": "dir:view"
+                        },
+                        {
+                            "authority": "doc:view"
+                        },
+                        {
+                            "authority": "dir:move"
+                        },
+                        {
+                            "authority": "doc:move"
+                        },
+                        {
+                            "authority": "timeline:complete:doc"
+                        },
+                        {
+                            "authority": "doc:edit"
+                        },
+                        {
+                            "authority": "dir:rename"
+                        },
+                        {
+                            "authority": "dir:edit"
+                        },
+                        {
+                            "authority": "dir:create"
+                        }
+                    ]
+                },
+                {
+                    "name": "ROLE_ADMIN",
+                    "permissionsAssociated": [
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "1e23c40c-b329-4957-8d12-7d5c11285bcd",
+                            "nom": "consulter:role",
+                            "description": "peut consulter les rôles"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "e13eb204-2686-4433-a6c1-085a302ecaca",
+                            "nom": "consulter:utilisateur",
+                            "description": "peut consulter les informations du compte"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "64b36319-7c2d-4ff8-a861-c6d7d3150f4d",
+                            "nom": "creer:utilisateur",
+                            "description": "peut créer un utilisateur"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "755a08e6-79aa-48c7-ae7d-5f4122f0e179",
+                            "nom": "modifier:utilisateur",
+                            "description": "peut modifier les informations du compte"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "e957332f-576a-4826-be1c-d653def3263c",
+                            "nom": "creer:evenement",
+                            "description": "Peut créer un autre événement"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "d3107fa3-cb0e-4bab-be72-41cf0a7a096a",
+                            "nom": "creer:comment",
+                            "description": "Peut creer un commentaire"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "6c3ce307-112d-4045-82ea-c7c2ac4680c2",
+                            "nom": "administrer:utilisateur",
+                            "description": "peut gérer les utilisateurs"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "02425997-e424-40ce-8511-f765007e6b7a",
+                            "nom": "supprimer:utilisateur",
+                            "description": "peut supprimer un utilisateur"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "dac4c051-a179-4580-a6e9-e1135b8df87f",
+                            "nom": "creer:role",
+                            "description": "peut créer des rôles"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "577ffcfb-514f-477c-aecd-5dc60e6a9bdf",
+                            "nom": "creer:document",
+                            "description": "Peut Créer ou editer un document"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "3c30e94f-df1f-476a-9789-d338d2bdaa54",
+                            "nom": "creer:conseil",
+                            "description": "Peut Créer un conseil ministeriel"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "18dd8327-69bc-4591-8ea6-33cf59778889",
+                            "nom": "supprimer:role",
+                            "description": "peut supprimer un rôle"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "25a86eef-8183-4199-188c-40e0077d9f0b",
+                            "nom": "creer:entite",
+                            "description": "peut créer une entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "5b28c548-d856-4236-f719-260e67d3fabc",
+                            "nom": "modifier:entite",
+                            "description": "peut modifier les entités"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "c8aee1e5-3f87-4f1a-a5a2-1f253e96a4c4",
+                            "nom": "creer:reunion",
+                            "description": "Peut créer une reunion"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "6175b4eb-550c-4828-9958-b43e93b85886",
+                            "nom": "creer:ordre",
+                            "description": "Peut définir des ordres du jour de conseil"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "6aa02bb2-b5c0-4b92-92f6-51bc60299c09",
+                            "nom": "creer:resultat",
+                            "description": "Peut fournir des résultats d'indicateurs"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "e8cae71a-99cb-4c69-68c4-2a756e658b83",
+                            "nom": "consulter:entite",
+                            "description": "peut consulter les entités"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "8e7d36c9-cb39-4385-8f35-5a8a66ef8cf9",
+                            "nom": "supprimer:entite",
+                            "description": "peut supprimer une entité"
+                        },
+                        {
+                            "createdBy": "system",
+                            "createdDate": null,
+                            "lastModifiedBy": null,
+                            "lastModifiedDate": null,
+                            "deletedAt": null,
+                            "id": "57a358fa-c900-4e6d-9d03-69e2a4e10b19",
+                            "nom": "creer:indicateur",
+                            "description": "Peut définir des indicateurs"
+                        }
+                    ],
+                    "authorities": [
+                        {
+                            "authority": "consulter:entite"
+                        },
+                        {
+                            "authority": "creer:resultat"
+                        },
+                        {
+                            "authority": "creer:utilisateur"
+                        },
+                        {
+                            "authority": "creer:indicateur"
+                        },
+                        {
+                            "authority": "creer:evenement"
+                        },
+                        {
+                            "authority": "supprimer:entite"
+                        },
+                        {
+                            "authority": "administrer:utilisateur"
+                        },
+                        {
+                            "authority": "creer:conseil"
+                        },
+                        {
+                            "authority": "creer:ordre"
+                        },
+                        {
+                            "authority": "creer:document"
+                        },
+                        {
+                            "authority": "consulter:role"
+                        },
+                        {
+                            "authority": "supprimer:utilisateur"
+                        },
+                        {
+                            "authority": "creer:comment"
+                        },
+                        {
+                            "authority": "creer:role"
+                        },
+                        {
+                            "authority": "creer:entite"
+                        },
+                        {
+                            "authority": "creer:reunion"
+                        },
+                        {
+                            "authority": "ROLE_ADMIN"
+                        },
+                        {
+                            "authority": "consulter:utilisateur"
+                        },
+                        {
+                            "authority": "supprimer:role"
+                        },
+                        {
+                            "authority": "modifier:utilisateur"
+                        },
+                        {
+                            "authority": "modifier:entite"
+                        }
+                    ]
+                }
+            ]
+        },
+        "membre": {
+            "id": "2687784b-cb62-4e40-9274-0d35ed2c28de",
+            "designation": "Sécrétariat Général du Gouvernement",
+            "siege": null,
+            "type": "SGG",
+            "ordreProtocolaire": null,
+            "estMinistereEtat": null,
+            "createdBy": null,
+            "createdDate": null,
+            "lastModifiedBy": null,
+            "lastModifiedDate": null,
+            "deletedAt": null,
+            "proprietaire": null,
+            "dossierMinisteriels": []
+        }
+    },
+    "account": {
+        "id": 1,
+        "login": "admin@localhost",
+        "firstName": "Administrator",
+        "lastName": "Administrator",
+        "email": "admin@localhost",
+        "imageUrl": "",
+        "activated": true,
+        "langKey": "fr",
+        "createdBy": "system",
+        "createdDate": null,
+        "lastModifiedBy": "admin@localhost",
+        "lastModifiedDate": "2025-05-21T16:31:52.405818Z",
+        "authorities": [
+            "aff:create:ministry",
+            "doc:create",
+            "timeline:view",
+            "doc:view",
+            "creer:resultat",
+            "creer:indicateur",
+            "creer:evenement",
+            "administrer:utilisateur",
+            "doc:move",
+            "dir:move",
+            "creer:ordre",
+            "timeline:complete:doc",
+            "doc:edit",
+            "consulter:role",
+            "dir:edit",
+            "supprimer:role",
+            "modifier:utilisateur",
+            "dir:create",
+            "timeline:add:doc",
+            "ROLE_AGENT_DCI",
+            "consulter:entite",
+            "doc:rename",
+            "dir:view",
+            "creer:utilisateur",
+            "supprimer:entite",
+            "creer:conseil",
+            "creer:document",
+            "supprimer:utilisateur",
+            "creer:role",
+            "creer:comment",
+            "dir:rename",
+            "creer:entite",
+            "creer:reunion",
+            "ROLE_ADMIN",
+            "consulter:utilisateur",
+            "modifier:entite"
+        ],
+        "twoFactorEnabled": false,
+        "lastActivity": null
+    }
+}
