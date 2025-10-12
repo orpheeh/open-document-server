@@ -12,6 +12,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         iframe {
             height: 100vh;
         }
@@ -29,6 +30,9 @@
                 key: "{{doc.id}}",
                 title: "{{doc.title}}",
                 url: "{{docUrl}}",
+                editorConfig: {
+                    callbackUrl: "{{callbackUrl}}"
+                },
             },
             documentType: "word",
             token: "{{token}}"
