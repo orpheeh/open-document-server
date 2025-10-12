@@ -1,5 +1,6 @@
 scripts
 files/ods-*
+files/output/template__*
 # Logs
 logs
 *.log
