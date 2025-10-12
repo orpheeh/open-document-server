@@ -36,9 +36,9 @@
             },
             documentType: "word",
             token: "{{token}}"
-            /*editorConfig: {
-                callbackUrl: "https://example.com/url-to-callback.ashx",
-            },*/
+            editorConfig: {
+                callbackUrl: "{{callbackUrl}}"
+            }
         };
 
         const docEditor = new DocsAPI.DocEditor("placeholder", config);
