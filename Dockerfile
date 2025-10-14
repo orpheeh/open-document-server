@@ -45,6 +45,8 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 #  apt-get install google-chrome-stable -y --no-install-recommends && \
 #  rm -rf /var/lib/apt/lists/*
 
+RUN apt-get update && apt-get install libreoffice
+
 WORKDIR /usr/src/app
 
 # Download dependencies as a separate step to take advantage of Docker's caching.
