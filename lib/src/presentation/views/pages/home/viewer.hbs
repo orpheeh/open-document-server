@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        iframe {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body style="min-height: 100vh;">
+    <div id="placeholder" style="height: 100vh;"></div>
+    <script type="text/javascript" src="{{onlyOfficeURL}}"></script>
+
+    <script>
+        const config = {
+            document: {
+                fileType: "docx",
+                key: "{{doc.id}}",
+                title: "{{doc.title}}",
+                url: "{{docUrl}}",
+                permissions: {
+                    edit: false,
+                },
+            },
+            documentType: "word",
+            token: "{{token}}",
+            editorConfig: {
+                mode: "view",
+            }
+        };
+
+        const docEditor = new DocsAPI.DocEditor("placeholder", config);
+
+    </script>
+
+</body>
+
+</html>
